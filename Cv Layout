@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/meu_estilo.css" />
+  <center><body background="images/leao.jpg">
+ <style>
+h1{
+  background-color: yellow;
+}
+ </style>
+</head>
+
+<body style="font-family:Verdana;color:#aaaaaa;">
+
+  <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+    <h1 style="color:black;">Curriculum Rogério Alexandre</h1>
+  </div>
+
+  <div style="overflow:auto">
+    <div class="left">
+      <a href="https://leopoldina.sp.senai.br/">SENAI</a>
+      <a href="https://aluno.usjt.br/SOL/aluno/index.php/index/seguranca/dev/instituicao/8">USJT</a>
+      <a href="https://www.youtube.com/watch?v=RgKAFK5djSk">YOUTUBE</a>
+      <a href="https://twitter.com/">TWITTER</a>
+    </div>
+
+    <div class="main">
+      <p><img src="images/rogerin.jpg" alt="Pineapple" style="width:150px;height:150px;margin-left:15px;">
+Eu sou o Rogério Alexandre de Oliveira Júnior e nasci dia 12/09/1998, sou formado em Curso de Apredizagem Industrial de Eletricista de Manutenção no Senai "Mariano Ferraz"
+e também em Técnico de Mecatrônica no Senai "Mariano Ferraz".Tenho certeza que nesse novo caminho de Faculdade irei me esforça ao maximo.
+ </p>
+
+    </div>
+
+    <div class="right">
+      <h2 style="color:orange;">Contato</h2>
+      <p2 style="color:black;">Whatsapp:(11)95086-7126 (VIVO)</p2>
+      <p2 style="color:black;">Email: Roy.alejunior@hotmail.com</p2>
+    </div>
+  </div>
+
+  <b style="color:black;"><div style="background-color:white;text-align:center;padding:10px;margin-top:7px;">• Enquanto houver vontade de lutar haverá esperança de vencer. •</div></b>
+
+</body>
+</center>
+</html>
