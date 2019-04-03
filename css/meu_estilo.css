@@ -40,11 +40,126 @@ img {
 
 @media only screen and (max-width:620px) {
 
-  
+
   .menu,
   .main,
   .right {
     width: 100%;
   }
 
+}
+
+p , p2 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+h1 , h2 {
+  color: cyan;
+  text-align: center;
+  font-family: serif;
+}
+h1{
+  background-color: black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid cyan;
+  border-radius: 4px;
+  resize: vertical;
+
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: cyan;
+}
+
+div.gif {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 180px;
+}
+div.gif:hover {
+  border: 1px solid #777;
+}
+
+div.gif img {
+  width: 100%;
+  height: auto;
 }
